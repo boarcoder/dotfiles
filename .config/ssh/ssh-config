@@ -1,0 +1,4 @@
+Host github
+    Hostname github.com
+    IdentityFile /home/quincysoul/.ssh/id_ed25519
+    IdentitiesOnly yes

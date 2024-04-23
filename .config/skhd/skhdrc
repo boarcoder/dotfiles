@@ -6,7 +6,7 @@ alt - s : open -a /Applications/Slack.app/Contents/MacOS/Slack
 # Telegram
 alt - t : open -a /Applications/Telegram.app/Contents/MacOS/Telegram
 
-# Telegram
+# Obsidian
 alt - o : open -a /Applications/Obsidian.app/Contents/MacOS/Obsidian
 
 # Show date
@@ -20,9 +20,3 @@ lalt - n : open -a /Applications/Notion.app/Contents/MacOS/Notion
 
 # Min
 ralt - m : open -a /Applications/Min.app/Contents/MacOS/Min
-
-# QuickTime
-alt - q : open -a /System/Applications/QuickTime\ Player.app/Contents/MacOS/QuickTime\ Player
-
-# FinalCut
-alt - f : open -a /Applications/Final\ Cut\ Pro.app/Contents/MacOS/Final\ Cut\ Pro
