@@ -9,9 +9,8 @@ bin/bash ./setup-script/mac-linux-setup.sh
 ### Install with stow:
 
 ```bash
-cd ./.config
-stow --target ~/.config .
-cd ./HOME
-stow --target ~/ */
-# stow --target ~/ */
+git add .
+git commit -am "updated stow files"
+stow --adopt -nv .config --target ~/.config
+stow --adopt -nv home --target ~
 ```
