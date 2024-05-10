@@ -1,0 +1,6 @@
+[user]
+name = alt1
+email = alt1@users.noreply.github.com
+
+[core]
+sshCommand = "ssh -o IdentitiesOnly -i ~/.ssh/id_ed25519 -F /dev/null"

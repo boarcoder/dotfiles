@@ -1,0 +1,14 @@
+[core]
+	editor = DISPLAY=:1 code --wait
+
+[init]
+	defaultBranch = main
+
+[rerere]
+	enabled = true
+
+[includeIf "gitdir:github/"]
+        path = ~/.config/git/boarcoder.gitconfig
+
+[includeIf "gitdir:github/alt1"]
+        path = ~/.config/git/alt1.gitconfig

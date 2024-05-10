@@ -57,15 +57,15 @@ command_run["linux"]="apt install -y stow"
 command_run["mac"]="yes| brew install stow"
 run_mac_or_linux_cmd
 
-log "Install mise-en-place environment manager (1)"
+log "Install mise-en-place environment manager (1/3)"
 command_run["linux"]='curl https://mise.run | sh'
 run_mac_or_linux_cmd
 
-log "Install mise-en-place environment manager (2)"
+log "Install mise-en-place environment manager (2/3)"
 command_run["linux"]='echo '\''eval"$(~/.local/bin/mise activate zsh)"'\'' >> ~/.zshrc'
 run_mac_or_linux_cmd
 
-log "Install mise-en-place environment manager (3)"
+log "Install mise-en-place environment manager (3/3)"
 command_run["linux"]='echo '\''export PATH=$HOME/.local/share/mise/shims:$PATH'\'' >> ~/.zprofile"'
 run_mac_or_linux_cmd
 
