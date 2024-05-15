@@ -3,4 +3,4 @@ name = boarcoder
 email = boarcoder@users.noreply.github.com
 
 [core]
-sshCommand = "ssh -o IdentitiesOnly -i ~/.ssh/id_ed25519 -F /dev/null"
+sshCommand = "ssh -o IdentitiesOnly=yes -i ~/.ssh/id_ed25519 -F /dev/null"
